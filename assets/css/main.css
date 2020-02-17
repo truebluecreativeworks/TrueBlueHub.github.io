@@ -1,0 +1,17 @@
+.body-bg {
+  background-color: #000099;
+  background-image: url("../images/texture.jpg");
+}
+
+.footer {
+  background-color: #000099;
+}
+.box {
+  background-color: #00004d;
+}
+
+p {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 1.0);
+  font-family: zekton
+}

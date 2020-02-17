@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>TrueBlueHub</title>
+
+    <link rel="stylesheet" href="assets/css/bulma.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/fonts.css">
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png">
+    <link rel="manifest" href="assets/images/favicons/site.webmanifest">
+    <link rel="mask-icon" href="assets/images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="assets/images/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-config" content="assets/images/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+
+</head>
+
+<body class="body-bg">
+
+    <header class="heading section has-text-centered">
+        <p class="title has-text-white">🌎 | TrueBlueHub™</p>
+    </header>
+
+    <main class="has-text-centered">
+
+        <div class="section">
+            <img src="assets/images/icon.png" width="150px">
+            <p class="title is-1 has-text-white">TrueBlueHub™</p>
+            <p class="subtitle has-text-white">Welcome to our website. This is a placeholder website, more content will be here soon..</p><br />
+
+            <p>Expected Release Date: Febuary, 22nd 2020</p>
+            <p id="demo" style="font-size:30px"></p>
+
+            <div class="buttons is-centered">
+                <a class="button is-large is-danger" href="https://true-blue-man.github.io/TrueBlueHub.github.io/">Main Website</a>
+                <a class="button is-large is-success" href="https://discord.gg/FQcz2KU">Discord Server</a>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="columns">
+                <div class="column">
+                    <div class="box has-text-white">
+
+                        <img src="assets/images/box_icon/software.png" width="100px">
+                        <p class="title is-2 has-text-white">Software Development</p>
+                        <p class="subtitle has-text-white">Custom software built to fit your needs.</p>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="box has-text-white">
+
+                        <img src="assets/images/box_icon/web.png" width="100px">
+                        <p class="title is-2 has-text-white">Website Development</p>
+                        <p class="subtitle has-text-white">From Front End to Back End. We can build Web Solutions and provide support to ensure your online pressense is known.</p class="subtitle">
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="box has-text-white">
+
+                        <img src="assets/images/box_icon/discord.png" width="100px">
+                        <p class="title is-2 has-text-white solid">Discord Server Development</p>
+                        <p class="subtitle has-text-white">We can build a server into a Flourishing community for you.</p class="subtitle">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <hr>
+    <footer class="footer has-text-white has-text-left">
+        <p><b>TrueBlueHub</b> | 2020</p>
+        <p>Thank you for visiting our website.</p>
+        <a href="https://info.flagcounter.com/vT3S"><img src="https://s11.flagcounter.com/countxl/vT3S/bg_000000/txt_FFFFFF/border_00C5CC/columns_4/maxflags_12/viewers_0/labels_1/pageviews_1/flags_0/percent_1/" style="width: 100%;" alt="Flag Counter" border="0"></a>
+        <a href="https://info.flagcounter.com/vT3S"><img src="https://s11.flagcounter.com/map/vT3S/size_l/txt_000000/border_CCCCCC/pageviews_1/viewers_0/flags_1/" style="width: 100%;" alt="Free counters!" border="0"></a>
+    </footer>
+    <script>
+        // Set the date we're counting down to
+        var countDownDate = new Date("Feb 22, 2020 12:00:00").getTime();
+
+        // Update the count down every 1 second
+        var countdownfunction = setInterval(function() {
+
+            // Get todays date and time
+            var now = new Date().getTime();
+
+            // Find the distance between now an the count down date
+            var distance = countDownDate - now;
+
+            // Time calculations for days, hours, minutes and seconds
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            // Output the result in an element with id="demo"
+            document.getElementById("demo").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+
+            // If the count down is over, write some text 
+            if (distance < 0) {
+                clearInterval(countdownfunction);
+                document.getElementById("demo").innerHTML = "EXPIRED";
+            }
+        }, 1000);
+    </script>
+</body>
+
+</html>
+
+</html>
+
+</html>
