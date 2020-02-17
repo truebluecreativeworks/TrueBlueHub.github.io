@@ -30,21 +30,21 @@
 <body class="body-bg">
 
     <header class="heading section has-text-centered">
-        <p class="title has-text-white">🌎 | TrueBlueHub™</p>
+        <p class="title has-text-white">ðŸŒŽ | TrueBlueHubâ„¢</p>
     </header>
 
     <main class="has-text-centered">
 
         <div class="section">
             <img src="assets/images/icon.png" width="150px">
-            <p class="title is-1 has-text-white">TrueBlueHub™</p>
+            <p class="title is-1 has-text-white">TrueBlueHubâ„¢</p>
             <p class="subtitle has-text-white">Welcome to our website. This is a placeholder website, more content will be here soon..</p><br />
 
             <p>Expected Release Date: Febuary, 22nd 2020</p>
             <p id="demo" style="font-size:30px"></p>
 
             <div class="buttons is-centered">
-                <a class="button is-large is-danger" href="https://true-blue-man.github.io/TrueBlueHub.github.io/">Main Website</a>
+                <a class="button is-large is-danger" href="https://truebluecreativeworks.github.io/Status.github.io">Status Page</a>
                 <a class="button is-large is-success" href="https://discord.gg/FQcz2KU">Discord Server</a>
             </div>
         </div>
@@ -87,6 +87,16 @@
         <a href="https://info.flagcounter.com/vT3S"><img src="https://s11.flagcounter.com/countxl/vT3S/bg_000000/txt_FFFFFF/border_00C5CC/columns_4/maxflags_12/viewers_0/labels_1/pageviews_1/flags_0/percent_1/" style="width: 100%;" alt="Flag Counter" border="0"></a>
         <a href="https://info.flagcounter.com/vT3S"><img src="https://s11.flagcounter.com/map/vT3S/size_l/txt_000000/border_CCCCCC/pageviews_1/viewers_0/flags_1/" style="width: 100%;" alt="Free counters!" border="0"></a>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3"></script>
+    <script>
+        const button = new Crate({
+            server: '606954821152669706',
+            channel: '626828449524219904',
+            shard: 'https://e.widgetbot.io'
+        })
+
+        button.notify('__Need Help?__\n```js\n Leave us a message.\n```')
+    </script>
     <script>
         // Set the date we're counting down to
         var countDownDate = new Date("Feb 22, 2020 12:00:00").getTime();
@@ -114,7 +124,7 @@
                 clearInterval(countdownfunction);
                 document.getElementById("demo").innerHTML = "EXPIRED";
             }
-        }, 1000);
+        }, 0);
     </script>
 </body>
 
